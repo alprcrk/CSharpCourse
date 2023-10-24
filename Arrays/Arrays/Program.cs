@@ -31,7 +31,7 @@
             {"Rize","Trabzon","Samsun" },
             {"İzmir","Muğla","Uşak" },
         };
-        //3 3 3 Bir sonuç Almış Olduk
+        //3 3 3 Bir sonuç Almış olduk
         for (int i = 0; i < regions.GetUpperBound(0); i++)
         {
             for (int j = 0; j <= regions.GetUpperBound(1); j++)
@@ -41,6 +41,9 @@
             Console.WriteLine("**************");
         }
         //GetUpperBound satırlar [0] dimension sütünlar [1] dimension
+
+
+
         Console.WriteLine();
         Console.ReadLine();
     }
